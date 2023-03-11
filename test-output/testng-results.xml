@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-11T17:50:55 IST" name="Suite" finished-at="2023-03-11T17:50:55 IST" duration-ms="77">
+    <groups>
+      <group name="Smoke">
+        <method signature="TestNgTutorialPersonelLoan.loginWithAPI()[pri:0, instance:demo.TestNgTutorialPersonelLoan@14555e0a]" name="loginWithAPI" class="demo.TestNgTutorialPersonelLoan"/>
+        <method signature="TestNgTutorialCarLoan.LoginAPICraLoan()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" name="LoginAPICraLoan" class="demo.TestNgTutorialCarLoan"/>
+        <method signature="TestNgTutorialHomeLoan.mobileLoginHomeLoan()[pri:0, instance:demo.TestNgTutorialHomeLoan@72e5a8e]" name="mobileLoginHomeLoan" class="demo.TestNgTutorialHomeLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-03-11T17:50:55 IST" name="PersonelLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="77">
+      <class name="demo.TestNgTutorialPersonelLoan">
+        <test-method signature="loginWithAPI()[pri:0, instance:demo.TestNgTutorialPersonelLoan@14555e0a]" started-at="2023-03-11T17:50:55 IST" name="loginWithAPI" finished-at="2023-03-11T17:50:55 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithAPI -->
+        <test-method signature="loginWithMobile()[pri:0, instance:demo.TestNgTutorialPersonelLoan@14555e0a]" started-at="2023-03-11T17:50:55 IST" name="loginWithMobile" finished-at="2023-03-11T17:50:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMobile -->
+        <test-method signature="loginWithWeb(java.lang.String,java.lang.String)[pri:0, instance:demo.TestNgTutorialPersonelLoan@14555e0a]" started-at="2023-03-11T17:50:55 IST" name="loginWithWeb" data-provider="getData" finished-at="2023-03-11T17:50:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirstetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FirstSetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWeb -->
+        <test-method signature="loginWithWeb(java.lang.String,java.lang.String)[pri:0, instance:demo.TestNgTutorialPersonelLoan@14555e0a]" started-at="2023-03-11T17:50:55 IST" name="loginWithWeb" data-provider="getData" finished-at="2023-03-11T17:50:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SecondetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SecondSetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWeb -->
+        <test-method signature="loginWithWeb(java.lang.String,java.lang.String)[pri:0, instance:demo.TestNgTutorialPersonelLoan@14555e0a]" started-at="2023-03-11T17:50:55 IST" name="loginWithWeb" data-provider="getData" finished-at="2023-03-11T17:50:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdSetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWeb -->
+      </class> <!-- demo.TestNgTutorialPersonelLoan -->
+    </test> <!-- PersonelLoan -->
+    <test started-at="2023-03-11T17:50:55 IST" name="HomeLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="65">
+      <class name="demo.TestNgTutorialHomeLoan">
+        <test-method signature="LoginAPIHomeLoan(java.lang.String)[pri:0, instance:demo.TestNgTutorialHomeLoan@72e5a8e]" started-at="2023-03-11T17:50:55 IST" name="LoginAPIHomeLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomeLoan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:demo.TestNgTutorialHomeLoan@72e5a8e]" started-at="2023-03-11T17:50:55 IST" name="mobileLoginHomeLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method signature="webLoginHomeLoan()[pri:0, instance:demo.TestNgTutorialHomeLoan@72e5a8e]" started-at="2023-03-11T17:50:55 IST" name="webLoginHomeLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- demo.TestNgTutorialHomeLoan -->
+      <class name="demo.TestNgTutorialCarLoan">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="beforeSuite" finished-at="2023-03-11T17:50:55 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="afterSuite" finished-at="2023-03-11T17:50:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- demo.TestNgTutorialCarLoan -->
+    </test> <!-- HomeLoan -->
+    <test started-at="2023-03-11T17:50:55 IST" name="CarLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="68">
+      <class name="demo.TestNgTutorialCarLoan">
+        <test-method is-config="true" signature="preRequiest()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="preRequiest" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequiest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="beforeClass" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="beforeMethod" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginAPICraLoan()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="LoginAPICraLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICraLoan -->
+        <test-method is-config="true" signature="aftereMethod()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="aftereMethod" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method signature="mobileLogincarLoan(java.lang.String,java.lang.String)[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="mobileLogincarLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[useme.token]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogincarLoan -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="beforeMethod" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="aftereMethod()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="aftereMethod" finished-at="2023-03-11T17:50:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="beforeMethod" finished-at="2023-03-11T17:50:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="webLogincarLoan()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="webLogincarLoan" finished-at="2023-03-11T17:50:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogincarLoan -->
+        <test-method is-config="true" signature="aftereMethod()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="aftereMethod" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftereMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="afterClass" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="postRequist()[pri:0, instance:demo.TestNgTutorialCarLoan@29215f06]" started-at="2023-03-11T17:50:55 IST" name="postRequist" finished-at="2023-03-11T17:50:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequist -->
+      </class> <!-- demo.TestNgTutorialCarLoan -->
+    </test> <!-- CarLoan -->
+  </suite> <!-- Suite -->
+</testng-results>

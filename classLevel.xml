@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="demo.TestListener"></listener>
+	</listeners>
+	<parameter name="url" value="qaclickacademy.com"/>
+	<parameter name="token" value="useme.token"/>
+	<test thread-count="5" name="PersonelLoan">
+		<classes>
+			<class name="demo.TestNgTutorialPersonelLoan" />
+		</classes>
+	</test>
+	<test thread-count="5" name="CarLoan">
+		<classes>
+			<class name="demo.TestNgTutorialCarLoan" />
+		</classes>
+	</test>
+	<test thread-count="5" name="HomeLoan">
+		<parameter name="homeLoanUrl" value="HomeLoan.com"/>
+		<classes>
+			<class name="demo.TestNgTutorialHomeLoan"/>
+		</classes>
+	</test>
+</suite>
